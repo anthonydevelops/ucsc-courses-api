@@ -1,0 +1,28 @@
+{
+  "name": "ucsc-courses-api",
+  "version": "1.0.0",
+  "description": "Extracts ucsc course information and provides a GraphQL API",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anthonydevelops/ucsc-courses-api.git"
+  },
+  "author": "Anthony Campos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anthonydevelops/ucsc-courses-api/issues"
+  },
+  "homepage": "https://github.com/anthonydevelops/ucsc-courses-api#readme",
+  "dependencies": {
+    "concurrently": "^4.0.1",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.5",
+    "puppeteer": "^1.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
