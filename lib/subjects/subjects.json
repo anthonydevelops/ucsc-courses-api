@@ -1,305 +1,406 @@
 [
     {
-        "val": ""
+        "subjectID": "",
+        "subjectName": "All Subjects"
     },
     {
-        "val": "ACEN"
+        "subjectID": "ACEN",
+        "subjectName": "Academic English"
     },
     {
-        "val": "AMST"
+        "subjectID": "AMST",
+        "subjectName": "American Studies"
     },
     {
-        "val": "ANTH"
+        "subjectID": "ANTH",
+        "subjectName": "Anthropology"
     },
     {
-        "val": "APLX"
+        "subjectID": "APLX",
+        "subjectName": "Applied Linguistics"
     },
     {
-        "val": "AMS"
+        "subjectID": "AMS",
+        "subjectName": "Applied Math and Statistics"
     },
     {
-        "val": "ARAB"
+        "subjectID": "ARAB",
+        "subjectName": "Arabic"
     },
     {
-        "val": "ART"
+        "subjectID": "ART",
+        "subjectName": "Art"
     },
     {
-        "val": "ARTG"
+        "subjectID": "ARTG",
+        "subjectName": "Art&Des:Games&PlayableMedia"
     },
     {
-        "val": "ASTR"
+        "subjectID": "ASTR",
+        "subjectName": "Astronomy and Astrophysics"
     },
     {
-        "val": "BIOC"
+        "subjectID": "BIOC",
+        "subjectName": "Biochemistry and Molecular Bio"
     },
     {
-        "val": "BIOL"
+        "subjectID": "BIOL",
+        "subjectName": "Biology: Molecular Cell & Dev"
     },
     {
-        "val": "BIOE"
+        "subjectID": "BIOE",
+        "subjectName": "Biology:Ecology & Evolutionary"
     },
     {
-        "val": "BME"
+        "subjectID": "BME",
+        "subjectName": "Biomolecular Engineering"
     },
     {
-        "val": "CRSN"
+        "subjectID": "CRSN",
+        "subjectName": "Carson College"
     },
     {
-        "val": "CHEM"
+        "subjectID": "CHEM",
+        "subjectName": "Chemistry and Biochemistry"
     },
     {
-        "val": "CHIN"
+        "subjectID": "CHIN",
+        "subjectName": "Chinese"
     },
     {
-        "val": "CSP"
+        "subjectID": "CSP",
+        "subjectName": "Coastal Science and Policy"
     },
     {
-        "val": "CLEI"
+        "subjectID": "CLEI",
+        "subjectName": "College Eight"
     },
     {
-        "val": "CLNI"
+        "subjectID": "CLNI",
+        "subjectName": "College Nine"
     },
     {
-        "val": "CLTE"
+        "subjectID": "CLTE",
+        "subjectName": "College Ten"
     },
     {
-        "val": "CMMU"
+        "subjectID": "CMMU",
+        "subjectName": "Community Studies"
     },
     {
-        "val": "CMPM"
+        "subjectID": "CMPM",
+        "subjectName": "Computational Media"
     },
     {
-        "val": "CMPE"
+        "subjectID": "CMPE",
+        "subjectName": "Computer Engineering"
     },
     {
-        "val": "CMPS"
+        "subjectID": "CMPS",
+        "subjectName": "Computer Science"
     },
     {
-        "val": "COWL"
+        "subjectID": "COWL",
+        "subjectName": "Cowell College"
     },
     {
-        "val": "LTCR"
+        "subjectID": "LTCR",
+        "subjectName": "Creative Writing"
     },
     {
-        "val": "CRES"
+        "subjectID": "CRES",
+        "subjectName": "Critical Race & Ethnic Studies"
     },
     {
-        "val": "CRWN"
+        "subjectID": "CRWN",
+        "subjectName": "Crown College"
     },
     {
-        "val": "DANM"
+        "subjectID": "DANM",
+        "subjectName": "Digital Arts and New Media"
     },
     {
-        "val": "EART"
+        "subjectID": "EART",
+        "subjectName": "Earth Sciences"
     },
     {
-        "val": "ECON"
+        "subjectID": "ECON",
+        "subjectName": "Economics"
     },
     {
-        "val": "EDUC"
+        "subjectID": "EDUC",
+        "subjectName": "Education"
     },
     {
-        "val": "EE"
+        "subjectID": "EE",
+        "subjectName": "Electrical Engineering"
     },
     {
-        "val": "ENGR"
+        "subjectID": "ENGR",
+        "subjectName": "Engineering"
     },
     {
-        "val": "LTEL"
+        "subjectID": "LTEL",
+        "subjectName": "English-Language Literatures"
     },
     {
-        "val": "ESCI"
+        "subjectID": "ESCI",
+        "subjectName": "Environmental Sciences"
     },
     {
-        "val": "ENVS"
+        "subjectID": "ENVS",
+        "subjectName": "Environmental Studies"
     },
     {
-        "val": "ETOX"
+        "subjectID": "ETOX",
+        "subjectName": "Environmental Toxicology"
     },
     {
-        "val": "FMST"
+        "subjectID": "FMST",
+        "subjectName": "Feminist Studies"
     },
     {
-        "val": "FILM"
+        "subjectID": "FILM",
+        "subjectName": "Film and Digital Media"
     },
     {
-        "val": "FREN"
+        "subjectID": "FREN",
+        "subjectName": "French"
     },
     {
-        "val": "LTFR"
+        "subjectID": "LTFR",
+        "subjectName": "French Literature"
     },
     {
-        "val": "GAME"
+        "subjectID": "GAME",
+        "subjectName": "Games and Playable Media"
     },
     {
-        "val": "GERM"
+        "subjectID": "GERM",
+        "subjectName": "German"
     },
     {
-        "val": "LTGE"
+        "subjectID": "LTGE",
+        "subjectName": "German Literature"
     },
     {
-        "val": "GREE"
+        "subjectID": "GREE",
+        "subjectName": "Greek"
     },
     {
-        "val": "LTGR"
+        "subjectID": "LTGR",
+        "subjectName": "Greek Literature"
     },
     {
-        "val": "HEBR"
+        "subjectID": "HEBR",
+        "subjectName": "Hebrew"
     },
     {
-        "val": "HNDI"
+        "subjectID": "HNDI",
+        "subjectName": "Hindi"
     },
     {
-        "val": "HIS"
+        "subjectID": "HIS",
+        "subjectName": "History"
     },
     {
-        "val": "HAVC"
+        "subjectID": "HAVC",
+        "subjectName": "History of Art&Visual Culture"
     },
     {
-        "val": "HISC"
+        "subjectID": "HISC",
+        "subjectName": "History of Consciousness"
     },
     {
-        "val": "HUMN"
+        "subjectID": "HUMN",
+        "subjectName": "Humanities"
     },
     {
-        "val": "ISM"
+        "subjectID": "ISM",
+        "subjectName": "Information Systems Management"
     },
     {
-        "val": "ITAL"
+        "subjectID": "ITAL",
+        "subjectName": "Italian"
     },
     {
-        "val": "LTIT"
+        "subjectID": "LTIT",
+        "subjectName": "Italian Literature"
     },
     {
-        "val": "JAPN"
+        "subjectID": "JAPN",
+        "subjectName": "Japanese"
     },
     {
-        "val": "JWST"
+        "subjectID": "JWST",
+        "subjectName": "Jewish Studies"
     },
     {
-        "val": "KRSG"
+        "subjectID": "KRSG",
+        "subjectName": "Kresge College"
     },
     {
-        "val": "LAAD"
+        "subjectID": "LAAD",
+        "subjectName": "Languages"
     },
     {
-        "val": "LATN"
+        "subjectID": "LATN",
+        "subjectName": "Latin"
     },
     {
-        "val": "LALS"
+        "subjectID": "LALS",
+        "subjectName": "Latin American&Latino Studies"
     },
     {
-        "val": "LTIN"
+        "subjectID": "LTIN",
+        "subjectName": "Latin Literature"
     },
     {
-        "val": "LGST"
+        "subjectID": "LGST",
+        "subjectName": "Legal Studies"
     },
     {
-        "val": "LING"
+        "subjectID": "LING",
+        "subjectName": "Linguistics"
     },
     {
-        "val": "LIT"
+        "subjectID": "LIT",
+        "subjectName": "Literature"
     },
     {
-        "val": "MATH"
+        "subjectID": "MATH",
+        "subjectName": "Mathematics"
     },
     {
-        "val": "MERR"
+        "subjectID": "MERR",
+        "subjectName": "Merrill College"
     },
     {
-        "val": "METX"
+        "subjectID": "METX",
+        "subjectName": "Microbiol & Environ Toxicology"
     },
     {
-        "val": "LTMO"
+        "subjectID": "LTMO",
+        "subjectName": "Modern Literary Studies"
     },
     {
-        "val": "MUSC"
+        "subjectID": "MUSC",
+        "subjectName": "Music"
     },
     {
-        "val": "OAKS"
+        "subjectID": "OAKS",
+        "subjectName": "Oakes College"
     },
     {
-        "val": "OCEA"
+        "subjectID": "OCEA",
+        "subjectName": "Ocean Sciences"
     },
     {
-        "val": "PHIL"
+        "subjectID": "PHIL",
+        "subjectName": "Philosophy"
     },
     {
-        "val": "PBS"
+        "subjectID": "PBS",
+        "subjectName": "Physical & Biological Sciences"
     },
     {
-        "val": "PHYE"
+        "subjectID": "PHYE",
+        "subjectName": "Physical Education"
     },
     {
-        "val": "PHYS"
+        "subjectID": "PHYS",
+        "subjectName": "Physics"
     },
     {
-        "val": "POLI"
+        "subjectID": "POLI",
+        "subjectName": "Politics"
     },
     {
-        "val": "PRTR"
+        "subjectID": "PRTR",
+        "subjectName": "Porter College"
     },
     {
-        "val": "PORT"
+        "subjectID": "PORT",
+        "subjectName": "Portuguese"
     },
     {
-        "val": "LTPR"
+        "subjectID": "LTPR",
+        "subjectName": "Pre & Early Modern Literature"
     },
     {
-        "val": "PSYC"
+        "subjectID": "PSYC",
+        "subjectName": "Psychology"
     },
     {
-        "val": "PUNJ"
+        "subjectID": "PUNJ",
+        "subjectName": "Punjabi"
     },
     {
-        "val": "RUSS"
+        "subjectID": "RUSS",
+        "subjectName": "Russian"
     },
     {
-        "val": "SCIC"
+        "subjectID": "SCIC",
+        "subjectName": "Science Communication"
     },
     {
-        "val": "SOCD"
+        "subjectID": "SOCD",
+        "subjectName": "Social Documentation"
     },
     {
-        "val": "SOCS"
+        "subjectID": "SOCS",
+        "subjectName": "Social Sciences"
     },
     {
-        "val": "SOCY"
+        "subjectID": "SOCY",
+        "subjectName": "Sociology"
     },
     {
-        "val": "SPAN"
+        "subjectID": "SPAN",
+        "subjectName": "Spanish"
     },
     {
-        "val": "SPHS"
+        "subjectID": "SPHS",
+        "subjectName": "Spanish for Heritage Speakers"
     },
     {
-        "val": "SPSS"
+        "subjectID": "SPSS",
+        "subjectName": "Spanish for Spanish Speakers"
     },
     {
-        "val": "LTSP"
+        "subjectID": "LTSP",
+        "subjectName": "Spanish/Latin Amer/Latino Lit"
     },
     {
-        "val": "STEV"
+        "subjectID": "STEV",
+        "subjectName": "Stevenson College"
     },
     {
-        "val": "TIM"
+        "subjectID": "TIM",
+        "subjectName": "Technology & Info Management"
     },
     {
-        "val": "THEA"
+        "subjectID": "THEA",
+        "subjectName": "Theater Arts"
     },
     {
-        "val": "UCDC"
+        "subjectID": "UCDC",
+        "subjectName": "UCDC"
     },
     {
-        "val": "WMST"
+        "subjectID": "WMST",
+        "subjectName": "Women's Studies"
     },
     {
-        "val": "LTWL"
+        "subjectID": "LTWL",
+        "subjectName": "World Lit & Cultural Studies"
     },
     {
-        "val": "WRIT"
+        "subjectID": "WRIT",
+        "subjectName": "Writing"
     },
     {
-        "val": "YIDD"
+        "subjectID": "YIDD",
+        "subjectName": "Yiddish"
     }
 ]

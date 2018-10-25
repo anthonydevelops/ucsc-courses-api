@@ -2,9 +2,9 @@
   "name": "ucsc-courses-api",
   "version": "1.0.0",
   "description": "Extracts ucsc course information and provides a GraphQL API",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "server": "nodemon server.js"
+    "main": "nodemon index.js"
   },
   "repository": {
     "type": "git",

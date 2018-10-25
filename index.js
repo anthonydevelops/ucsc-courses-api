@@ -1,4 +1,21 @@
+const mongoose = require("mongoose");
+const express = require("express");
 const puppeteer = require("puppeteer");
+
+const app = express();
+
+// Models
+const subjects = require("./models/Subjects");
+
+// Port
+const port = process.env.PORT || 5000;
+
+// Connect to MongoDB
+const db = require("./config/keys").mongoURI;
+mongoose
+  .connect(db)
+  .then(() => console.log("MongoDB connected"))
+  .catch(err => console.log(err));
 
 const run = async () => {
   const browser = await puppeteer.launch({
@@ -26,8 +43,8 @@ const run = async () => {
   await page.click(SUBMIT);
 
   await page.waitForNavigation();
-
-  browser.close();
 };
 
 run();
+
+app.listen(port, () => console.log(`Listening on port ${port}`));
