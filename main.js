@@ -1,8 +1,6 @@
 const mongoose = require("mongoose");
 const express = require("express");
-const fetchClass = require("./lib/data");
-
-console.log(fetchClass);
+const search = require("./lib/data").search;
 
 const app = express();
 
@@ -18,5 +16,10 @@ mongoose
   .connect(db)
   .then(() => console.log("MongoDB connected"))
   .catch(err => console.log(err));
+
+app.get("/test", async (req, res) => {
+  const course = await search("AMS10");
+  res.send(course);
+});
 
 app.listen(port, () => console.log(`Listening on port ${port}`));
