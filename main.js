@@ -18,7 +18,7 @@ mongoose
   .catch(err => console.log(err));
 
 app.get("/test", async (req, res) => {
-  const course = await search("cmps5j");
+  const course = await search("cmps183");
   res.send(course);
 });
 
