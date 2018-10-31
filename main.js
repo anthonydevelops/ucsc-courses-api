@@ -5,7 +5,7 @@ const search = require("./lib/data").search;
 const app = express();
 
 // Models
-const subjects = require("./models/Subjects");
+const courses = require("./models/Courses");
 
 // Port
 const port = process.env.PORT || 5000;
