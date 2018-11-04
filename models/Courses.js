@@ -8,28 +8,27 @@ const CourseSchema = new mongoose.Schema({
   meta: [String],
   description: {
     type: String,
+    default: "",
     trim: true
   },
   prereqs: {
     type: String,
+    default: "",
     trim: true
   },
   notes: {
     type: String,
+    default: "",
     trim: true
   },
-  lecture: [String],
-  sections: [
-    {
-      sectionID: String,
-      times: String,
-      ta: String,
-      location: String,
-      enrolled: String,
-      waitlist: String,
-      status: String
-    }
-  ]
+  lecture: {
+    type: [String],
+    default: ""
+  },
+  sections: {
+    type: [{}],
+    default: ""
+  }
 });
 
 module.exports = Course = mongoose.model("Course", CourseSchema);
