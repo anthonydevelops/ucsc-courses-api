@@ -48,21 +48,24 @@ mongoose
   .catch(err => console.log(err));
 
 app.get("/test", async (req, res) => {
-  const courseData = await search("cmps5j");
+  try {
+    const courseData = await search("ams131");
+    for (let i = 0; i < courseData.length; i++) {
+      const course = new Courses({
+        courseID: courseData[i][0].courseID,
+        meta: courseData[i][0].meta,
+        description: courseData[i][0].description,
+        prereqs: courseData[i][0].prereqs,
+        notes: courseData[i][0].notes,
+        lecture: courseData[i][0].lecture,
+        sections: courseData[i][0].sections
+      });
 
-  for (let i = 0; i < courseData.length; i++) {
-    const course = new Courses({
-      courseID: courseData[i][0].courseID,
-      meta: courseData[i][0].meta,
-      description: courseData[i][0].description,
-      prereqs: courseData[i][0].prereqs,
-      notes: courseData[i][0].notes,
-      lecture: courseData[i][0].lecture,
-      sections: courseData[i][0].sections
-    });
-
-    course.save().then(console.log(`Saving ${i} documents ...`));
-    res.send(course);
+      // course.save().then(console.log(`Saving ${i} documents ...`));
+    }
+    res.send(courseData);
+  } catch (e) {
+    console.log(e);
   }
 });
 
