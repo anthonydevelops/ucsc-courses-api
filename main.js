@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 const express = require("express");
-const search = require("./lib/data").search;
+const search = require("./lib/courseQuery").getCourse;
 
 const majorCourses = [
   "cmps12a",
@@ -49,7 +49,7 @@ mongoose
 
 app.get("/test", async (req, res) => {
   try {
-    const courseData = await search("ams131");
+    const courseData = await search("ams131", "2018 Fall Quarter");
     for (let i = 0; i < courseData.length; i++) {
       const course = new Courses({
         courseID: courseData[i][0].courseID,
