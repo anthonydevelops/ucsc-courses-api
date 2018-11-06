@@ -20,7 +20,7 @@ mongoose
 
 app.get("/test/course", async (req, res) => {
   try {
-    const courseData = await courseQuery("ams131", "2018 Fall Quarter");
+    const courseData = await courseQuery("ams204", "2018 Fall Quarter");
     for (let i = 0; i < courseData.length; i++) {
       const course = new Courses({
         courseID: courseData[i][0].courseID,
