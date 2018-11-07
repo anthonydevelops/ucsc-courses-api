@@ -42,8 +42,21 @@ app.get("/test/course", async (req, res) => {
 
 app.get("/test/courses/all", async (req, res) => {
   try {
-    const termData = await termQuery("O", "2018 Fall Quarter");
-    res.send(termData);
+    const termData = await termQuery("all", "2018 Fall Quarter");
+    for (let i = 0; i < termData.length; i++) {
+      const course = new Courses({
+        courseTitle: termData[i].courseTitle,
+        courseID: termData[i].courseID,
+        meta: termData[i].meta,
+        description: termData[i].description,
+        prereqs: termData[i].prereqs,
+        notes: termData[i].notes,
+        lecture: termData[i].lecture,
+        sections: termData[i].sections
+      });
+
+      course.save().then(console.log(`Saving ${i} documents ...`));
+    }
   } catch (e) {
     console.log(e);
   }

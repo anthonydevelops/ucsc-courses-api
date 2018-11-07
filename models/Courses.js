@@ -1,11 +1,17 @@
 const mongoose = require("mongoose");
 
 const CourseSchema = new mongoose.Schema({
+  courseTitle: {
+    type: String,
+    trim: true
+  },
   courseID: {
     type: String,
     trim: true
   },
-  meta: [String],
+  meta: {
+    type: mongoose.Schema.Types.Mixed
+  },
   description: {
     type: String,
     default: "",
@@ -22,7 +28,7 @@ const CourseSchema = new mongoose.Schema({
     trim: true
   },
   lecture: {
-    type: [String],
+    type: mongoose.Schema.Types.Mixed,
     default: ""
   },
   sections: {
