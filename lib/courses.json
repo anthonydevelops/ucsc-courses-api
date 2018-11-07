@@ -1,0 +1,1192 @@
+[
+    {
+        "courseTitle": "AMS 3 - 01   Precalculus for the Social Sciences",
+        "courseID": "AMS3",
+        "meta": {
+            "career": "Undergraduate",
+            "grading": "Student Option",
+            "class_number": "21723",
+            "type": "Lecture",
+            "credits": "5 units",
+            "general_education": "MF",
+            "status": "Open",
+            "available_seats": "14",
+            "enrollment_capacity": "75",
+            "enrolled": "61",
+            "wait_list_capacity": "0"
+        },
+        "description": "Introduces mathematical functions and their uses for modeling real-life problems in the social sciences. Includes inequalities, linear and quadratic equations, functions (linear, quadratic, polynomial, rational, power, exponential, logarithmic, trigonometric), inverses, and the composition of functions. Students cannot receive credit for both this course and Mathematics 3. Mathematics 3 can substitute for this course. (Formerly Precalculus for Science and Engineering.)",
+        "prereqs": "Prerequisite(s): score of 200 or higher on the mathematics placement examination (MPE), or Mathematics 2.",
+        "notes": "Enroll in lecture and associated discussion section",
+        "lecture": {
+            "DaysTimes": "MWF 10:40AM-11:45AM",
+            "Room": "Soc Sci 2 075",
+            "Instructor": "Garaud,P.",
+            "MeetingDates": "09/27/18 - 12/07/18"
+        },
+        "sections": [
+            {
+                "sectionID": "#21724 DIS 01A",
+                "times": "TuTh 08:30AM-09:35AM",
+                "ta": "Johnson,B.J.",
+                "location": "Loc: Soc Sci 1 149",
+                "enrolled": "Enrl: 21 / 25",
+                "waitlist": "Wait: 0 / 0",
+                "status": "Open"
+            },
+            {
+                "sectionID": "#21725 DIS 01B",
+                "times": "MF 01:20PM-02:25PM",
+                "ta": "Johnson,B.J.",
+                "location": "Loc: Soc Sci 2 141",
+                "enrolled": "Enrl: 20 / 25",
+                "waitlist": "Wait: 0 / 0",
+                "status": "Open"
+            }
+        ]
+    },
+    {
+        "courseTitle": "AMS 5 - 01   Statistics",
+        "courseID": "AMS5",
+        "meta": {
+            "career": "Undergraduate",
+            "grading": "Student Option",
+            "class_number": "21727",
+            "type": "Lecture",
+            "credits": "5 units",
+            "general_education": "SR",
+            "status": "Open",
+            "available_seats": "11",
+            "enrollment_capacity": "250",
+            "enrolled": "239",
+            "wait_list_capacity": "0"
+        },
+        "description": "Introduction to statistical methods/reasoning, including descriptive methods, data-gathering (experimental design and sample surveys), probability, interval estimation, significance tests, one- and two-sample problems, categorical data analysis, correlation and regression. Emphasis on applications to the natural and social sciences. Students cannot receive credit for this course if they have already received credit for course 7.",
+        "prereqs": "",
+        "notes": "Enroll in lecture and associated discussion section",
+        "lecture": {
+            "DaysTimes": "TuTh 11:40AM-01:15PM",
+            "Room": "Earth&Marine B206",
+            "Instructor": "Mendes,B.S."
+        },
+        "sections": [
+            {
+                "sectionID": "#21728 DIS 01A",
+                "times": "M 05:20PM-06:55PM",
+                "ta": "Silva,M.",
+                "location": "Loc: PhysSciences 136",
+                "enrolled": "Enrl: 37 / 40",
+                "waitlist": "Wait: 0 / 0",
+                "status": "Open"
+            },
+            {
+                "sectionID": "#21729 DIS 01B",
+                "times": "M 07:10PM-08:45PM",
+                "ta": "Silva,M.",
+                "location": "Loc: PhysSciences 136",
+                "enrolled": "Enrl: 31 / 40",
+                "waitlist": "Wait: 0 / 0",
+                "status": "Open"
+            },
+            {
+                "sectionID": "#21730 DIS 01C",
+                "times": "Tu 08:00AM-09:35AM",
+                "ta": "Brewer Cappellin,A.R.",
+                "location": "Loc: PhysSciences 136",
+                "enrolled": "Enrl: 40 / 40",
+                "waitlist": "Wait: 0 / 0",
+                "status": "Closed"
+            },
+            {
+                "sectionID": "#21731 DIS 01D",
+                "times": "Tu 05:20PM-06:55PM",
+                "ta": "Silva,M.",
+                "location": "Loc: PhysSciences 136",
+                "enrolled": "Enrl: 37 / 40",
+                "waitlist": "Wait: 0 / 0",
+                "status": "Open"
+            },
+            {
+                "sectionID": "#21732 DIS 01E",
+                "times": "Tu 07:10PM-08:45PM",
+                "ta": "Rice,M.",
+                "location": "Loc: PhysSciences 136",
+                "enrolled": "Enrl: 32 / 40",
+                "waitlist": "Wait: 0 / 0",
+                "status": "Open"
+            },
+            {
+                "sectionID": "#21733 DIS 01F",
+                "times": "Th 08:00AM-09:35AM",
+                "ta": "Rice,M.",
+                "location": "Loc: PhysSciences 114",
+                "enrolled": "Enrl: 26 / 40",
+                "waitlist": "Wait: 0 / 0",
+                "status": "Open"
+            }
+        ]
+    },
+    {
+        "courseTitle": "AMS 5 - 02   Statistics",
+        "courseID": "AMS5",
+        "meta": {
+            "career": "Undergraduate",
+            "grading": "Student Option",
+            "class_number": "21735",
+            "type": "Lecture",
+            "credits": "5 units",
+            "general_education": "SR",
+            "status": "Open",
+            "available_seats": "1",
+            "enrollment_capacity": "250",
+            "enrolled": "249",
+            "wait_list_capacity": "0"
+        },
+        "description": "Introduction to statistical methods/reasoning, including descriptive methods, data-gathering (experimental design and sample surveys), probability, interval estimation, significance tests, one- and two-sample problems, categorical data analysis, correlation and regression. Emphasis on applications to the natural and social sciences. Students cannot receive credit for this course if they have already received credit for course 7.",
+        "prereqs": "",
+        "notes": "",
+        "lecture": {
+            "DaysTimes": "MWF 02:40PM-03:45PM",
+            "Room": "Earth&Marine B206",
+            "Instructor": "Katznelson,J.R.",
+            "MeetingDates": "09/27/18 - 12/07/18"
+        },
+        "sections": [
+            {
+                "sectionID": "#21736 DIS 02A",
+                "times": "M 10:40AM-11:45AM",
+                "ta": "Zheng,X.",
+                "location": "Loc: J Baskin Engr 156",
+                "enrolled": "Enrl: 24 / 25",
+                "waitlist": "Wait: 0 / 0",
+                "status": "Open"
+            },
+            {
+                "sectionID": "#21737 DIS 02B",
+                "times": "W 08:00AM-09:05AM",
+                "ta": "Grenier,I.",
+                "location": "Loc: J Baskin Engr 156",
+                "enrolled": "Enrl: 24 / 25",
+                "waitlist": "Wait: 0 / 0",
+                "status": "Open"
+            },
+            {
+                "sectionID": "#21738 DIS 02C",
+                "times": "W 01:20PM-02:25PM",
+                "ta": "Grenier,I.",
+                "location": "Loc: Soc Sci 1 110",
+                "enrolled": "Enrl: 25 / 25",
+                "waitlist": "Wait: 0 / 0",
+                "status": "Closed"
+            },
+            {
+                "sectionID": "#21739 DIS 02D",
+                "times": "F 09:20AM-10:25AM",
+                "ta": "Shuler,K.W.",
+                "location": "Loc: J Baskin Engr 156",
+                "enrolled": "Enrl: 25 / 25",
+                "waitlist": "Wait: 0 / 0",
+                "status": "Closed"
+            },
+            {
+                "sectionID": "#21740 DIS 02E",
+                "times": "Th 09:50AM-10:55AM",
+                "ta": "Grenier,I.",
+                "location": "Loc: J Baskin Engr 156",
+                "enrolled": "Enrl: 24 / 25",
+                "waitlist": "Wait: 0 / 0",
+                "status": "Open"
+            },
+            {
+                "sectionID": "#21741 DIS 02F",
+                "times": "Tu 11:40AM-12:45PM",
+                "ta": "Shuler,K.W.",
+                "location": "Loc: J Baskin Engr 156",
+                "enrolled": "Enrl: 24 / 25",
+                "waitlist": "Wait: 0 / 0",
+                "status": "Open"
+            },
+            {
+                "sectionID": "#21742 DIS 02G",
+                "times": "F 08:00AM-09:05AM",
+                "ta": "Zheng,X.",
+                "location": "Loc: J Baskin Engr 156",
+                "enrolled": "Enrl: 17 / 25",
+                "waitlist": "Wait: 0 / 0",
+                "status": "Open"
+            }
+        ]
+    },
+    {
+        "courseTitle": "AMS 7 - 01   Statistical Methods for the Biological, Environmental, and Health Sciences",
+        "courseID": "AMS7",
+        "meta": {
+            "career": "Undergraduate",
+            "grading": "Student Option",
+            "class_number": "21744",
+            "type": "Lecture",
+            "credits": "5 units",
+            "general_education": "SR",
+            "status": "Closed",
+            "available_seats": "0",
+            "enrollment_capacity": "200",
+            "enrolled": "220",
+            "wait_list_capacity": "0"
+        },
+        "description": "Case-study-based introduction to statistical methods as practiced in the biological, environmental, and health sciences. Descriptive methods, experimental design, probability, interval estimation, hypothesis testing, one- and two-sample problems, power and sample size calculations, simple correlation and simple linear regression, one-way analysis of variance, categorical data analysis.",
+        "prereqs": "Prerequisite(s): score of 300 or higher on the mathematics placement examination (MPE), or course 2 or 3 or 6 or 11A or 15A or Mathematics 3 or 11A or 19A. Concurrent enrollment in course 7L is required.",
+        "notes": "Concurrent enrollment in AMS 7L is required. Enroll in lecture and associated discussion section",
+        "lecture": {
+            "DaysTimes": "TuTh 11:40AM-01:15PM",
+            "Room": "J Bask Aud 101",
+            "Instructor": "Draper,D.",
+            "MeetingDates": "09/27/18 - 12/07/18"
+        },
+        "sections": [
+            {
+                "sectionID": "#21745 DIS 01A",
+                "times": "M 12:00PM-01:05PM",
+                "ta": "Barata,R.A.",
+                "location": "Loc: Cowell Com 134",
+                "enrolled": "Enrl: 41 / 40",
+                "waitlist": "Wait: 0 / 0",
+                "status": "Closed"
+            },
+            {
+                "sectionID": "#21746 DIS 01B",
+                "times": "M 01:20PM-02:25PM",
+                "ta": "Barata,R.A.",
+                "location": "Loc: Engineer 2 194",
+                "enrolled": "Enrl: 50 / 50",
+                "waitlist": "Wait: 0 / 0",
+                "status": "Closed"
+            },
+            {
+                "sectionID": "#21747 DIS 01C",
+                "times": "W 02:40PM-03:45PM",
+                "ta": "Jarvis,S.G.",
+                "location": "Loc: Engineer 2 194",
+                "enrolled": "Enrl: 45 / 50",
+                "waitlist": "Wait: 0 / 0",
+                "status": "Open"
+            },
+            {
+                "sectionID": "#21748 DIS 01D",
+                "times": "W 04:00PM-05:05PM",
+                "ta": "Hu,Z.",
+                "location": "Loc: Engineer 2 194",
+                "enrolled": "Enrl: 41 / 50",
+                "waitlist": "Wait: 0 / 0",
+                "status": "Open"
+            },
+            {
+                "sectionID": "#21749 DIS 01E",
+                "times": "F 08:00AM-09:05AM",
+                "ta": "Hu,Z.",
+                "location": "Loc: Engineer 2 194",
+                "enrolled": "Enrl: 40 / 50",
+                "waitlist": "Wait: 0 / 0",
+                "status": "Open"
+            }
+        ]
+    },
+    {
+        "courseTitle": "AMS 7 - 02   Statistical Methods for the Biological, Environmental, and Health Sciences",
+        "courseID": "AMS7",
+        "meta": {
+            "career": "Undergraduate",
+            "grading": "Student Option",
+            "class_number": "21750",
+            "type": "Lecture",
+            "credits": "5 units",
+            "general_education": "SR",
+            "status": "Open",
+            "available_seats": "75",
+            "enrollment_capacity": "150",
+            "enrolled": "75",
+            "wait_list_capacity": "0"
+        },
+        "description": "Case-study-based introduction to statistical methods as practiced in the biological, environmental, and health sciences. Descriptive methods, experimental design, probability, interval estimation, hypothesis testing, one- and two-sample problems, power and sample size calculations, simple correlation and simple linear regression, one-way analysis of variance, categorical data analysis.",
+        "prereqs": "Prerequisite(s): score of 300 or higher on the mathematics placement examination (MPE), or course 2 or 3 or 6 or 11A or 15A or Mathematics 3 or 11A or 19A. Concurrent enrollment in course 7L is required.",
+        "notes": "Concurrent enrollment in AMS 7L is required. Enroll in lecture and associated discussion section",
+        "lecture": {
+            "DaysTimes": "TuTh 07:10PM-08:45PM",
+            "Room": "Thim Lecture 003",
+            "Instructor": "Mendes,B.S.",
+            "MeetingDates": "09/27/18 - 12/07/18"
+        },
+        "sections": [
+            {
+                "sectionID": "#21751 DIS 02A",
+                "times": "M 05:20PM-06:55PM",
+                "ta": "Jarvis,S.G.",
+                "location": "Loc: Engineer 2 194",
+                "enrolled": "Enrl: 29 / 40",
+                "waitlist": "Wait: 0 / 0",
+                "status": "Open"
+            },
+            {
+                "sectionID": "#21752 DIS 02B",
+                "times": "Cancelled Cancelled",
+                "ta": "Staff",
+                "location": "Loc: TBA",
+                "enrolled": "Enrl: 0 / 0",
+                "waitlist": "Wait: 0 / 0",
+                "status": "Closed"
+            },
+            {
+                "sectionID": "#21753 DIS 02C",
+                "times": "Tu 08:00AM-09:05AM",
+                "ta": "Jarvis,S.G.",
+                "location": "Loc: Engineer 2 194",
+                "enrolled": "Enrl: 8 / 40",
+                "waitlist": "Wait: 0 / 0",
+                "status": "Open"
+            },
+            {
+                "sectionID": "#21754 DIS 02D",
+                "times": "W 05:20PM-06:55PM",
+                "ta": "Zhao,C.",
+                "location": "Loc: Engineer 2 194",
+                "enrolled": "Enrl: 27 / 40",
+                "waitlist": "Wait: 0 / 0",
+                "status": "Open"
+            }
+        ]
+    },
+    {
+        "courseTitle": "AMS 7L - 01   Statistical Methods for the Biological, Environmental, and Health Sciences Laboratory",
+        "courseID": "AMS7L",
+        "meta": {
+            "career": "Undergraduate",
+            "grading": "Student Option",
+            "class_number": "22728",
+            "type": "Laboratory",
+            "credits": "2 units",
+            "general_education": " ",
+            "status": "Open",
+            "available_seats": "9",
+            "enrollment_capacity": "200",
+            "enrolled": "191",
+            "wait_list_capacity": "0"
+        },
+        "description": "Computer-based laboratory course in which students gain hands-on experience in analysis of data sets arising from statistical problem-solving in the biological, environmental, and health sciences. Descriptive methods, interval estimation, hypothesis testing, one-and two-sample problems, correlation and regression, one-way analysis of variance, categorical data analysis.",
+        "prereqs": "Prerequisite(s): score of 300 or higher on the mathematics placement examination (MPE), course 2 or 3 or 6 or 11A or 15A or Mathematics 3 or 11A or 19A.",
+        "notes": "Enroll in lab and associated secondary lab. Concurrent enrollment in AMS 7 is required.",
+        "lecture": {
+            "DaysTimes": "TBA TBA",
+            "Room": "TBA",
+            "Instructor": "Heiner,M.J.",
+            "MeetingDates": "09/27/18 - 12/07/18"
+        },
+        "sections": [
+            {
+                "sectionID": "#22729 LBS 01A",
+                "times": "Tu 09:00AM-10:45AM",
+                "ta": "Staff",
+                "location": "Loc: Soc Sci 1 135",
+                "enrolled": "Enrl: 39 / 40",
+                "waitlist": "Wait: 0 / 0",
+                "status": "Open"
+            },
+            {
+                "sectionID": "#22730 LBS 01B",
+                "times": "Tu 05:00PM-06:45PM",
+                "ta": "Staff",
+                "location": "Loc: Soc Sci 1 135",
+                "enrolled": "Enrl: 36 / 40",
+                "waitlist": "Wait: 0 / 0",
+                "status": "Open"
+            },
+            {
+                "sectionID": "#22731 LBS 01C",
+                "times": "W 01:00PM-02:45PM",
+                "ta": "Staff",
+                "location": "Loc: Soc Sci 1 135",
+                "enrolled": "Enrl: 39 / 40",
+                "waitlist": "Wait: 0 / 0",
+                "status": "Open"
+            },
+            {
+                "sectionID": "#22732 LBS 01D",
+                "times": "W 03:00PM-04:45PM",
+                "ta": "Staff",
+                "location": "Loc: Soc Sci 1 135",
+                "enrolled": "Enrl: 38 / 40",
+                "waitlist": "Wait: 0 / 0",
+                "status": "Open"
+            }
+        ]
+    },
+    {
+        "courseTitle": "AMS 7L - 02   Statistical Methods for the Biological, Environmental, and Health Sciences Laboratory",
+        "courseID": "AMS7L",
+        "meta": {
+            "career": "Undergraduate",
+            "grading": "Student Option",
+            "class_number": "22734",
+            "type": "Laboratory",
+            "credits": "2 units",
+            "general_education": " ",
+            "status": "Open",
+            "available_seats": "122",
+            "enrollment_capacity": "200",
+            "enrolled": "78",
+            "wait_list_capacity": "0"
+        },
+        "description": "Computer-based laboratory course in which students gain hands-on experience in analysis of data sets arising from statistical problem-solving in the biological, environmental, and health sciences. Descriptive methods, interval estimation, hypothesis testing, one-and two-sample problems, correlation and regression, one-way analysis of variance, categorical data analysis.",
+        "prereqs": "Prerequisite(s): score of 300 or higher on the mathematics placement examination (MPE), course 2 or 3 or 6 or 11A or 15A or Mathematics 3 or 11A or 19A.",
+        "notes": "Enroll in lab and associated secondary lab. Concurrent enrollment in AMS 7 is required.",
+        "lecture": {
+            "DaysTimes": "TBA TBA",
+            "Room": "TBA",
+            "Instructor": "Guha,S.",
+            "MeetingDates": "09/27/18 - 12/07/18"
+        },
+        "sections": [
+            {
+                "sectionID": "#22735 LBS 02A",
+                "times": "M 09:00AM-10:45AM",
+                "ta": "Staff",
+                "location": "Loc: Soc Sci 1 135",
+                "enrolled": "Enrl: 9 / 40",
+                "waitlist": "Wait: 0 / 0",
+                "status": "Open"
+            },
+            {
+                "sectionID": "#22736 LBS 02B",
+                "times": "M 11:00AM-12:45PM",
+                "ta": "Staff",
+                "location": "Loc: Soc Sci 1 135",
+                "enrolled": "Enrl: 21 / 40",
+                "waitlist": "Wait: 0 / 0",
+                "status": "Open"
+            },
+            {
+                "sectionID": "#22737 LBS 02C",
+                "times": "Th 05:00PM-06:45PM",
+                "ta": "Staff",
+                "location": "Loc: Soc Sci 1 135",
+                "enrolled": "Enrl: 23 / 40",
+                "waitlist": "Wait: 0 / 0",
+                "status": "Open"
+            },
+            {
+                "sectionID": "#22738 LBS 02D",
+                "times": "F 01:00PM-02:45PM",
+                "ta": "Staff",
+                "location": "Loc: Soc Sci 1 135",
+                "enrolled": "Enrl: 11 / 40",
+                "waitlist": "Wait: 0 / 0",
+                "status": "Open"
+            }
+        ]
+    },
+    {
+        "courseTitle": "AMS 10 - 01   Mathematical Methods for Engineers I",
+        "courseID": "AMS10",
+        "meta": {
+            "career": "Undergraduate",
+            "grading": "Student Option",
+            "class_number": "21756",
+            "type": "Lecture",
+            "credits": "5 units",
+            "general_education": "MF",
+            "status": "Closed",
+            "available_seats": "0",
+            "enrollment_capacity": "235",
+            "enrolled": "236",
+            "wait_list_capacity": "0"
+        },
+        "description": "Applications-oriented course on complex numbers and linear algebra integrating Matlab as a computational support tool. Introduction to complex algebra. Vectors, bases and transformations, matrix algebra, solutions of linear systems, inverses and determinants, eigenvalues and eigenvectors, and geometric transformations. Students cannot receive credit for this course and for courses 10A or Mathematics 21.",
+        "prereqs": "Prerequisite(s): score of 400 or higher on the mathematics placement examination (MPE) or Mathematics 3.",
+        "notes": "Enroll in lecture and associated secondary lab",
+        "lecture": {
+            "DaysTimes": "TuTh 09:50AM-11:25AM",
+            "Room": "Thim Lecture 003",
+            "Instructor": "Gomez,M.",
+            "MeetingDates": "09/27/18 - 12/07/18"
+        },
+        "sections": [
+            {
+                "sectionID": "#21757 LBS 01A",
+                "times": "M 01:00PM-03:00PM",
+                "ta": "Iwamasa,J.T.",
+                "location": "Loc: Soc Sci 1 135",
+                "enrolled": "Enrl: 42 / 42",
+                "waitlist": "Wait: 0 / 0",
+                "status": "Closed"
+            },
+            {
+                "sectionID": "#21758 LBS 01B",
+                "times": "M 03:00PM-05:00PM",
+                "ta": "Gianfortone,L.M.",
+                "location": "Loc: Soc Sci 1 135",
+                "enrolled": "Enrl: 42 / 42",
+                "waitlist": "Wait: 0 / 0",
+                "status": "Closed"
+            },
+            {
+                "sectionID": "#21759 LBS 01C",
+                "times": "W 09:00AM-11:00AM",
+                "ta": "Iwamasa,J.T.",
+                "location": "Loc: Soc Sci 1 135",
+                "enrolled": "Enrl: 38 / 42",
+                "waitlist": "Wait: 0 / 0",
+                "status": "Open"
+            },
+            {
+                "sectionID": "#21760 LBS 01D",
+                "times": "W 11:00AM-01:00PM",
+                "ta": "Lu,L.K.",
+                "location": "Loc: Soc Sci 1 135",
+                "enrolled": "Enrl: 41 / 42",
+                "waitlist": "Wait: 0 / 0",
+                "status": "Open"
+            },
+            {
+                "sectionID": "#21761 LBS 01E",
+                "times": "F 09:00AM-11:00AM",
+                "ta": "Gianfortone,L.M.",
+                "location": "Loc: Soc Sci 1 135",
+                "enrolled": "Enrl: 34 / 42",
+                "waitlist": "Wait: 0 / 0",
+                "status": "Open"
+            }
+        ]
+    },
+    {
+        "courseTitle": "AMS 11A - 01   Mathematical Methods for Economists I",
+        "courseID": "AMS11A",
+        "meta": {
+            "career": "Undergraduate",
+            "grading": "Student Option",
+            "class_number": "21566",
+            "type": "Lecture",
+            "credits": "5 units",
+            "general_education": "MF",
+            "status": "Open",
+            "available_seats": "52",
+            "combined_section_capacity": "160",
+            "enrolled": "108",
+            "wait_list_capacity": "0"
+        },
+        "description": "Introduction to mathematical tools and reasoning, with applications to economics. Topics are drawn from differential calculus in one variable and include limits, continuity, differentiation, elasticity, Taylor polynomials, and optimization. Students cannot receive credit for both this course and Mathematics 11A or 19A or Applied Mathematics and Statistics 15A. (Also offered as Applied Mathematics and Statistics 11A. Students cannot receive credit for both courses.)",
+        "prereqs": "Students who have already taken Mathematics 11A or 19A should not take this course. Prerequisite(s): score of 300 or higher on the mathematics placement examination (MPE), Applied Math and Statistics 2, 3, or 6, or Mathematics 3.",
+        "notes": "Also offered as ECON 11A. Enroll in lecture and discussion section.",
+        "lecture": {
+            "DaysTimes": "TuTh 03:20PM-04:55PM",
+            "Room": "ClassroomUnit 001",
+            "Instructor": "Mendes,B.S.",
+            "MeetingDates": "09/27/18 - 12/07/18"
+        },
+        "sections": [
+            {
+                "sectionID": "#21567 DIS 01A",
+                "times": "M 07:10PM-08:45PM",
+                "ta": "Manek,B.",
+                "location": "Loc: Engineer 2 192",
+                "enrolled": "Enrl: 23 / 40",
+                "waitlist": "Wait: 0 / 0",
+                "status": "Open"
+            },
+            {
+                "sectionID": "#21568 DIS 01B",
+                "times": "Th 08:00AM-09:35AM",
+                "ta": "Noone Wade,J.B.",
+                "location": "Loc: PhysSciences 130",
+                "enrolled": "Enrl: 33 / 40",
+                "waitlist": "Wait: 0 / 0",
+                "status": "Open"
+            },
+            {
+                "sectionID": "#21569 DIS 01C",
+                "times": "W 05:20PM-06:45PM",
+                "ta": "Noone Wade,J.B.",
+                "location": "Loc: PhysSciences 130",
+                "enrolled": "Enrl: 39 / 40",
+                "waitlist": "Wait: 0 / 0",
+                "status": "Open"
+            }
+        ]
+    },
+    {
+        "courseTitle": "AMS 11B - 01   Mathematical Methods for Economists II",
+        "courseID": "AMS11B",
+        "meta": {
+            "career": "Undergraduate",
+            "grading": "Student Option",
+            "class_number": "21578",
+            "type": "Lecture",
+            "credits": "5 units",
+            "general_education": "MF",
+            "status": "Open",
+            "available_seats": "2",
+            "combined_section_capacity": "205",
+            "enrolled": "203",
+            "wait_list_capacity": "0"
+        },
+        "description": "Mathematical tools and reasoning, with applications to economics. Topics are drawn from multivariable differential calculus and single variable integral calculus, and include partial derivatives, linear and quadratic approximation, optimization with and without constraints, Lagrange multipliers, definite and indefinite integrals, and elementary differential equations. Students cannot receive credit for both this course and Mathematics 11B or 19B or Applied Math and Statistics 15B.",
+        "prereqs": "Prerequisite(s): course 11A , Economics 11A, Mathematics 11A, or Mathematics 19A.",
+        "notes": "Also offered as ECON 11B.",
+        "lecture": {
+            "DaysTimes": "MWF 10:40AM-11:45AM",
+            "Room": "J Bask Aud 101",
+            "Instructor": "Katznelson,J.R.",
+            "MeetingDates": "09/27/18 - 12/07/18"
+        },
+        "sections": [
+            {
+                "sectionID": "#21579 DIS 01A",
+                "times": "Tu 08:30AM-09:35AM",
+                "ta": "Nasab,S.",
+                "location": "Loc: Soc Sci 2 165",
+                "enrolled": "Enrl: 25 / 25",
+                "waitlist": "Wait: 0 / 0",
+                "status": "Closed"
+            },
+            {
+                "sectionID": "#21580 DIS 01B",
+                "times": "Tu 05:20PM-06:25PM",
+                "ta": "Brennan,C.",
+                "location": "Loc: Soc Sci 2 165",
+                "enrolled": "Enrl: 24 / 25",
+                "waitlist": "Wait: 0 / 0",
+                "status": "Open"
+            },
+            {
+                "sectionID": "#21581 DIS 01C",
+                "times": "Tu 06:40PM-07:45PM",
+                "ta": "Brennan,C.",
+                "location": "Loc: Soc Sci 2 165",
+                "enrolled": "Enrl: 22 / 25",
+                "waitlist": "Wait: 0 / 0",
+                "status": "Open"
+            },
+            {
+                "sectionID": "#21582 DIS 01D",
+                "times": "W 01:20PM-02:25PM",
+                "ta": "Shaffer,R.S.",
+                "location": "Loc: Soc Sci 2 165",
+                "enrolled": "Enrl: 22 / 25",
+                "waitlist": "Wait: 0 / 0",
+                "status": "Open"
+            },
+            {
+                "sectionID": "#21583 DIS 01E",
+                "times": "W 02:40PM-03:45PM",
+                "ta": "Shaffer,R.S.",
+                "location": "Loc: Kresge Acad 194",
+                "enrolled": "Enrl: 21 / 25",
+                "waitlist": "Wait: 0 / 0",
+                "status": "Open"
+            },
+            {
+                "sectionID": "#21584 DIS 01F",
+                "times": "W 04:00PM-05:05PM",
+                "ta": "Shaffer,R.S.",
+                "location": "Loc: Kresge Acad 194",
+                "enrolled": "Enrl: 16 / 25",
+                "waitlist": "Wait: 0 / 0",
+                "status": "Open"
+            },
+            {
+                "sectionID": "#24343 DIS 01G",
+                "times": "Th 09:50AM-10:55AM",
+                "ta": "Nasab,S.",
+                "location": "Loc: Soc Sci 2 167",
+                "enrolled": "Enrl: 16 / 25",
+                "waitlist": "Wait: 0 / 0",
+                "status": "Open"
+            }
+        ]
+    },
+    {
+        "courseTitle": "AMS 80A - 01   Gambling and Gaming",
+        "courseID": "AMS80A",
+        "meta": {
+            "career": "Undergraduate",
+            "grading": "Student Option",
+            "class_number": "22859",
+            "type": "Lecture",
+            "credits": "5 units",
+            "general_education": "SR",
+            "status": "Open",
+            "available_seats": "7",
+            "enrollment_capacity": "160",
+            "enrolled": "153",
+            "wait_list_capacity": "0"
+        },
+        "description": "Games of chance and strategy motivated early developments in probability, statistics, and decision theory. Course uses popular games to introduce students to these concepts, which underpin recent scientific developments in economics, genetics, ecology, and physics.",
+        "prereqs": "",
+        "notes": "Enroll in lecture and associated discussion section",
+        "lecture": {
+            "DaysTimes": "TuTh 09:50AM-11:25AM",
+            "Room": "Oakes Acad 105",
+            "Instructor": "Guhaniyogi,R.",
+            "MeetingDates": "09/27/18 - 12/07/18"
+        },
+        "sections": [
+            {
+                "sectionID": "#22860 DIS 01A",
+                "times": "W 07:10PM-08:15PM",
+                "ta": "Trubey,P.R.",
+                "location": "Loc: Engineer 2 192",
+                "enrolled": "Enrl: 37 / 40",
+                "waitlist": "Wait: 0 / 0",
+                "status": "Open"
+            },
+            {
+                "sectionID": "#22861 DIS 01B",
+                "times": "Tu 05:20PM-06:25PM",
+                "ta": "Kong,J.",
+                "location": "Loc: PhysSciences 114",
+                "enrolled": "Enrl: 38 / 40",
+                "waitlist": "Wait: 0 / 0",
+                "status": "Open"
+            },
+            {
+                "sectionID": "#22862 DIS 01C",
+                "times": "Tu 06:40PM-07:45PM",
+                "ta": "Kong,J.",
+                "location": "Loc: PhysSciences 114",
+                "enrolled": "Enrl: 39 / 40",
+                "waitlist": "Wait: 0 / 0",
+                "status": "Open"
+            }
+        ]
+    },
+    {
+        "courseTitle": "AMS 107 - 01   Introduction to Fluid Dynamics",
+        "courseID": "AMS107",
+        "meta": {
+            "career": "Undergraduate",
+            "grading": "Student Option",
+            "class_number": "22353",
+            "type": "Lecture",
+            "credits": "5 units",
+            "general_education": " ",
+            "status": "Open",
+            "available_seats": "23",
+            "combined_section_capacity": "45",
+            "enrolled": "22",
+            "wait_list_capacity": "0"
+        },
+        "description": "Covers fundamental topics in fluid dynamics: Euler and Lagrange descriptions of continuum dynamics; conservation laws for inviscid and viscous flows; potential flows; exact solutions of the Navier-Stokes equation; boundary layer theory; gravity waves. Students cannot receive credit for this course and Applied Mathematics and Statistics 217.",
+        "prereqs": "Prerequisite(s): Mathematics 107 or Physics 116C or Earth and Planetary Sciences 111.",
+        "notes": "Also offered as PHYS 107. Taught in conjunction with AMS 217.",
+        "lecture": {
+            "DaysTimes": "TuTh 11:40AM-01:15PM",
+            "Room": "Soc Sci 1 110",
+            "Instructor": "Brummell,N.H.",
+            "MeetingDates": "09/27/18 - 12/07/18"
+        },
+        "sections": []
+    },
+    {
+        "courseTitle": "AMS 114 - 01   Introduction to Dynamical Systems",
+        "courseID": "AMS114",
+        "meta": {
+            "career": "Undergraduate",
+            "grading": "Student Option",
+            "class_number": "21775",
+            "type": "Lecture",
+            "credits": "5 units",
+            "general_education": "MF",
+            "status": "Open",
+            "available_seats": "5",
+            "combined_section_capacity": "65",
+            "enrolled": "60",
+            "wait_list_capacity": "0"
+        },
+        "description": "Introduces continuous and discrete dynamical systems. Topics include: fixed points; stability; limit cycles; bifurcations; transition to and characterization of chaos; fractals. Examples are drawn from sciences and engineering. Students cannot receive credit for this course and course 214. (Formerly course 146.)",
+        "prereqs": "Prerequisite(s): course 20 or 20A, or Mathematics 21 and Mathematics 24, or Physics 116B. Enrollment is restricted to sophomores, juniors and seniors.",
+        "notes": "Taught in conjunction with AMS 214. Enroll in lecture and associated discussion section",
+        "lecture": {
+            "DaysTimes": "TuTh 09:50AM-11:25AM",
+            "Room": "PhysSciences 114",
+            "Instructor": "Venturi,D.",
+            "MeetingDates": "09/27/18 - 12/07/18"
+        },
+        "sections": []
+    },
+    {
+        "courseTitle": "AMS 129 - 01   Foundations of Scientific Computing for Scientists and Engineers",
+        "courseID": "AMS129",
+        "meta": {
+            "career": "Undergraduate",
+            "grading": "Student Option",
+            "class_number": "23278",
+            "type": "Lecture",
+            "credits": "5 units",
+            "general_education": " ",
+            "status": "Open",
+            "available_seats": "12",
+            "enrollment_capacity": "50",
+            "enrolled": "38",
+            "wait_list_capacity": "0"
+        },
+        "description": "Covers fundamental aspects of scientific computing for research. Students are introduced to algorithmic development, programming (including the use of compilers, libraries, debugging, optimization, code publication), computational infrastructure, and data analysis tools, gaining hands-on experience through practical assignments. Basic programming experience is assumed.",
+        "prereqs": "",
+        "notes": "Enroll in lecture and associated secondary lab",
+        "lecture": {
+            "DaysTimes": "MWF 09:20AM-10:25AM",
+            "Room": "Engineer 2 192",
+            "Instructor": "Lee,Y.",
+            "MeetingDates": "09/27/18 - 12/07/18"
+        },
+        "sections": [
+            {
+                "sectionID": "#23279 LBS 01A",
+                "times": "Th 01:30PM-03:00PM",
+                "ta": "Trigueiro,S.Z.",
+                "location": "Loc: J Baskin Engr 105",
+                "enrolled": "Enrl: 22 / 30",
+                "waitlist": "Wait: 0 / 0",
+                "status": "Open"
+            }
+        ]
+    },
+    {
+        "courseTitle": "AMS 131 - 01   Introduction to Probability Theory",
+        "courseID": "AMS131",
+        "meta": {
+            "career": "Undergraduate",
+            "grading": "Student Option",
+            "class_number": "21763",
+            "type": "Lecture",
+            "credits": "5 units",
+            "general_education": "SR",
+            "status": "Open",
+            "available_seats": "9",
+            "enrollment_capacity": "200",
+            "enrolled": "191",
+            "wait_list_capacity": "0"
+        },
+        "description": "Introduction to probability theory and its applications. Combinatorial analysis, axioms of probability and independence, random variables (discrete and continuous), joint probability distributions, properties of expectation, Central Limit Theorem, Law of Large Numbers, Markov chains. Students cannot receive credit for this course and course 203 and Computer Engineering 107.",
+        "prereqs": "Prerequisite(s): course 11B or Economics 11B or Mathematics 11B or 19B or 20B.",
+        "notes": "Enroll in lecture and associated discussion section",
+        "lecture": {
+            "DaysTimes": "TuTh 03:20PM-04:55PM",
+            "Room": "Thim Lecture 003",
+            "Instructor": "Kottas,A.",
+            "MeetingDates": "09/27/18 - 12/07/18"
+        },
+        "sections": [
+            {
+                "sectionID": "#21764 DIS 01A",
+                "times": "Tu 08:30AM-09:35AM",
+                "ta": "Song,S.",
+                "location": "Loc: PhysSciences 114",
+                "enrolled": "Enrl: 37 / 40",
+                "waitlist": "Wait: 0 / 0",
+                "status": "Open"
+            },
+            {
+                "sectionID": "#21765 DIS 01B",
+                "times": "M 02:40PM-03:40PM",
+                "ta": "Song,S.",
+                "location": "Loc: PhysSciences 114",
+                "enrolled": "Enrl: 39 / 40",
+                "waitlist": "Wait: 0 / 0",
+                "status": "Open"
+            },
+            {
+                "sectionID": "#21766 DIS 01C",
+                "times": "W 10:40AM-11:45AM",
+                "ta": "Yu,X.",
+                "location": "Loc: Engineer 2 192",
+                "enrolled": "Enrl: 39 / 40",
+                "waitlist": "Wait: 0 / 0",
+                "status": "Open"
+            },
+            {
+                "sectionID": "#21767 DIS 01D",
+                "times": "W 01:20PM-02:25PM",
+                "ta": "Yu,X.",
+                "location": "Loc: Engineer 2 192",
+                "enrolled": "Enrl: 38 / 40",
+                "waitlist": "Wait: 0 / 0",
+                "status": "Open"
+            }
+        ]
+    },
+    {
+        "courseTitle": "AMS 131 - 02   Introduction to Probability Theory",
+        "courseID": "AMS131",
+        "meta": {
+            "career": "Undergraduate",
+            "grading": "Student Option",
+            "class_number": "21769",
+            "type": "Lecture",
+            "credits": "5 units",
+            "general_education": "SR",
+            "status": "Open",
+            "available_seats": "3",
+            "enrollment_capacity": "199",
+            "enrolled": "196",
+            "wait_list_capacity": "0"
+        },
+        "description": "Introduction to probability theory and its applications. Combinatorial analysis, axioms of probability and independence, random variables (discrete and continuous), joint probability distributions, properties of expectation, Central Limit Theorem, Law of Large Numbers, Markov chains. Students cannot receive credit for this course and course 203 and Computer Engineering 107.",
+        "prereqs": "Prerequisite(s): course 11B or Economics 11B or Mathematics 11B or 19B or 20B.",
+        "notes": "",
+        "lecture": {
+            "DaysTimes": "TuTh 08:00AM-09:35AM",
+            "Room": "Thim Lecture 003",
+            "Instructor": "Prado,R."
+        },
+        "sections": [
+            {
+                "sectionID": "#21770 DIS 02A",
+                "times": "W 08:00AM-09:05AM",
+                "ta": "Staff",
+                "location": "Loc: Engineer 2 194",
+                "enrolled": "Enrl: 35 / 40",
+                "waitlist": "Wait: 0 / 0",
+                "status": "Open"
+            },
+            {
+                "sectionID": "#21771 DIS 02B",
+                "times": "W 10:40AM-11:45AM",
+                "ta": "Zhao,W.",
+                "location": "Loc: Engineer 2 194",
+                "enrolled": "Enrl: 40 / 40",
+                "waitlist": "Wait: 0 / 0",
+                "status": "Closed"
+            },
+            {
+                "sectionID": "#21772 DIS 02C",
+                "times": "F 01:20PM-02:25PM",
+                "ta": "Gutierrez,R.",
+                "location": "Loc: Engineer 2 192",
+                "enrolled": "Enrl: 39 / 40",
+                "waitlist": "Wait: 0 / 0",
+                "status": "Open"
+            },
+            {
+                "sectionID": "#21773 DIS 02D",
+                "times": "Th 07:10PM-08:15PM",
+                "ta": "Gutierrez,R.",
+                "location": "Loc: Engineer 2 194",
+                "enrolled": "Enrl: 31 / 40",
+                "waitlist": "Wait: 0 / 0",
+                "status": "Open"
+            }
+        ]
+    },
+    {
+        "courseTitle": "AMS 200 - 01   Research and Teaching in AMS",
+        "courseID": "AMS200",
+        "meta": {
+            "career": "Graduate",
+            "grading": "Student Option",
+            "class_number": "22877",
+            "type": "Lecture",
+            "credits": "3 units",
+            "general_education": " ",
+            "status": "Open",
+            "available_seats": "5",
+            "enrollment_capacity": "25",
+            "enrolled": "20",
+            "wait_list_capacity": "0"
+        },
+        "description": "Basic teaching techniques for teaching assistants, including responsibilities and rights; resource materials; computer skills; leading discussions or lab sessions; presentation techniques; maintaining class records; and grading. Examines research and professional training, including use of library; technical writing; giving talks in seminars and conferences; and ethical issues in science and engineering.",
+        "prereqs": "Enrollment is restricted to graduate students.",
+        "notes": "",
+        "lecture": {
+            "DaysTimes": "M 01:20PM-03:00PM",
+            "Room": "Soc Sci 1 149",
+            "Instructor": "Kottas,A."
+        },
+        "sections": []
+    },
+    {
+        "courseTitle": "AMS 203 - 01   Introduction to Probability Theory",
+        "courseID": "AMS203",
+        "meta": {
+            "career": "Graduate",
+            "grading": "Student Option",
+            "class_number": "22960",
+            "type": "Lecture",
+            "credits": "5 units",
+            "general_education": " ",
+            "status": "Open",
+            "available_seats": "29",
+            "enrollment_capacity": "50",
+            "enrolled": "21",
+            "wait_list_capacity": "0"
+        },
+        "description": "Introduces probability theory and its applications. Requires a multivariate calculus background, but has no measure theoretic content. Topics include: combinatorial analysis; axioms of probability; random variables (discrete and continuous); joint probability distributions; expectation and higher moments; central limit theorem; law of large numbers; and Markov chains. Students cannot receive credit for this course and course 131 or Computer Engineering 107.",
+        "prereqs": "Enrollment is restricted to graduate students, or by permission of the instructor.",
+        "notes": "",
+        "lecture": {
+            "DaysTimes": "MWF 12:00PM-01:05PM",
+            "Room": "Engineer 2 194",
+            "Instructor": "Lee,J.",
+            "MeetingDates": "09/27/18 - 12/07/18"
+        },
+        "sections": []
+    },
+    {
+        "courseTitle": "AMS 203 - 50   Introduction to Probability Theory",
+        "courseID": "AMS203",
+        "meta": {
+            "career": "Graduate",
+            "grading": "Student Option",
+            "class_number": "22961",
+            "type": "Lecture",
+            "credits": "5 units",
+            "general_education": " ",
+            "status": "Closed",
+            "available_seats": "0",
+            "enrollment_capacity": "0",
+            "enrolled": "0",
+            "wait_list_capacity": "0"
+        },
+        "description": "Introduces probability theory and its applications. Requires a multivariate calculus background, but has no measure theoretic content. Topics include: combinatorial analysis; axioms of probability; random variables (discrete and continuous); joint probability distributions; expectation and higher moments; central limit theorem; law of large numbers; and Markov chains. Students cannot receive credit for this course and course 131 or Computer Engineering 107.",
+        "prereqs": "Enrollment is restricted to graduate students, or by permission of the instructor.",
+        "notes": "",
+        "lecture": {
+            "DaysTimes": "Cancelled",
+            "Room": "N/A",
+            "Instructor": "N/A",
+            "MeetingDates": "N/A"
+        },
+        "sections": []
+    },
+    {
+        "courseTitle": "AMS 211 - 01   Foundations of Applied Mathematics",
+        "courseID": "AMS211",
+        "meta": {
+            "career": "Graduate",
+            "grading": "Student Option",
+            "class_number": "22765",
+            "type": "Lecture",
+            "credits": "5 units",
+            "general_education": " ",
+            "status": "Open",
+            "available_seats": "4",
+            "enrollment_capacity": "25",
+            "enrolled": "21",
+            "wait_list_capacity": "0"
+        },
+        "description": "Accelerated class reviewing fundamental applied mathematical methods for all sciences. Topics include: multivariate calculus, linear algebra, Fourier series and integral transform methods, complex analysis, and ordinary differential equations.",
+        "prereqs": "Enrollment is restricted to graduate students.",
+        "notes": "",
+        "lecture": {
+            "DaysTimes": "TuTh 05:20PM-06:55PM",
+            "Room": "J Baskin Engr 165",
+            "Instructor": "Wang,H.",
+            "MeetingDates": "09/27/18 - 12/07/18"
+        },
+        "sections": []
+    },
+    {
+        "courseTitle": "AMS 214 - 01   Applied Dynamical Systems",
+        "courseID": "AMS214",
+        "meta": {
+            "career": "Graduate",
+            "grading": "Student Option",
+            "class_number": "22748",
+            "type": "Lecture",
+            "credits": "5 units",
+            "general_education": " ",
+            "status": "Closed",
+            "available_seats": "5",
+            "combined_section_capacity": "65",
+            "enrolled": "60",
+            "wait_list_capacity": "0"
+        },
+        "description": "Introduces continuous and discrete dynamical systems. Topics include: fixed points; stability; limit cycles; bifurcations; transition to and characterization of chaos; and fractals. Examples drawn from sciences and engineering; founding papers of the subject are studied. Students cannot receive credit for this course and course 114.",
+        "prereqs": "Enrollment is restricted to graduate students; undergraduates may enroll by permission of instructor.",
+        "notes": "Taught in conjunction with AMS 114. Enroll in lecture and associated secondary discussion.",
+        "lecture": {
+            "DaysTimes": "TuTh 09:50AM-11:25AM",
+            "Room": "PhysSciences 114",
+            "Instructor": "Venturi,D.",
+            "MeetingDates": "09/27/18 - 12/07/18"
+        },
+        "sections": []
+    },
+    {
+        "courseTitle": "AMS 217 - 01   Introduction to Fluid Dynamics",
+        "courseID": "AMS217",
+        "meta": {
+            "career": "Graduate",
+            "grading": "Student Option",
+            "class_number": "22760",
+            "type": "Lecture",
+            "credits": "5 units",
+            "general_education": " ",
+            "status": "Open",
+            "available_seats": "23",
+            "combined_section_capacity": "45",
+            "enrolled": "22",
+            "wait_list_capacity": "0"
+        },
+        "description": "Covers fundamental topics in fluid dynamics at the graduate level: Euler and Lagrange descriptions of continuum dynamics; conservation laws for inviscid and viscous flows; potential flows; exact solutions of the Navier-Stokes equation; boundary layer theory; gravity waves. Students cannot receive credit for this course and course 107.",
+        "prereqs": "Enrollment is restricted to graduate students; undergraduates may enroll by permission of the instructor.",
+        "notes": "Taught in conjunction with AMS 107 and PHYS 107.",
+        "lecture": {
+            "DaysTimes": "TuTh 11:40AM-01:15PM",
+            "Room": "Soc Sci 1 110",
+            "Instructor": "Brummell,N.H.",
+            "MeetingDates": "09/27/18 - 12/07/18"
+        },
+        "sections": []
+    },
+    {
+        "courseTitle": "AMS 229 - 01   Convex Optimization",
+        "courseID": "AMS229",
+        "meta": {
+            "career": "Graduate",
+            "grading": "Student Option",
+            "class_number": "23689",
+            "type": "Lecture",
+            "credits": "5 units",
+            "general_education": " ",
+            "status": "Open",
+            "available_seats": "13",
+            "enrollment_capacity": "25",
+            "enrolled": "12",
+            "wait_list_capacity": "0"
+        },
+        "description": "Focuses on recognizing, formulating, analyzing, and solving convex optimization problems encountered across science and engineering. Topics include: convex sets; convex functions; convex optimization problems; duality; subgradient calculus; algorithms for smooth and non-smooth convex optimization; applications to signal and image processing, machine learning, statistics, control, robotics and economics. Students are required to have knowledge of calculus and linear algebra, and exposure to probability.",
+        "prereqs": "Enrollment is restricted to graduate students.",
+        "notes": "",
+        "lecture": {
+            "DaysTimes": "TuTh 03:20PM-04:55PM",
+            "Room": "J Baskin Engr 156",
+            "Instructor": "Halder,A.",
+            "MeetingDates": "09/27/18 - 12/07/18"
+        },
+        "sections": []
+    },
+    {
+        "courseTitle": "AMS 263 - 01   Stochastic Processes",
+        "courseID": "AMS263",
+        "meta": {
+            "career": "Graduate",
+            "grading": "Student Option",
+            "class_number": "21777",
+            "type": "Lecture",
+            "credits": "5 units",
+            "general_education": " ",
+            "status": "Open",
+            "available_seats": "4",
+            "enrollment_capacity": "15",
+            "enrolled": "11",
+            "wait_list_capacity": "0"
+        },
+        "description": "Includes probabilistic and statistical analysis of random processes, continuous-time Markov chains, hidden Markov models, point processes, Markov random fields, spatial and spatio-temporal processes, and statistical modeling and inference in stochastic processes. Applications to a variety of fields.",
+        "prereqs": "Prerequisite(s): course 205A, 205B, or 261, or by permission of instructor.",
+        "notes": "",
+        "lecture": {
+            "DaysTimes": "TuTh 08:00AM-09:35AM",
+            "Room": "J Baskin Engr 169",
+            "Instructor": "Guhaniyogi,R.",
+            "MeetingDates": "09/27/18 - 12/07/18"
+        },
+        "sections": []
+    }
+]
