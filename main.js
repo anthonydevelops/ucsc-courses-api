@@ -18,7 +18,8 @@ mongoose
   .then(() => console.log("MongoDB connected"))
   .catch(err => console.log(err));
 
-app.get("/course/:courseID/quarter/:quarterID", async (req, res) => {
+// Routes
+app.post("/course/:courseID/quarter/:quarterID", async (req, res) => {
   try {
     const courseData = await courseQuery(
       req.params.courseID,
@@ -44,9 +45,9 @@ app.get("/course/:courseID/quarter/:quarterID", async (req, res) => {
   }
 });
 
-app.get("/test/courses/all", async (req, res) => {
+app.post("/status/:statusID/quarter/:quarterID", async (req, res) => {
   try {
-    const termData = await termQuery("all", "2018 Fall Quarter");
+    const termData = await termQuery(req.params.statusID, req.params.quarterID);
     for (let i = 0; i < termData.length; i++) {
       const course = new Courses({
         courseTitle: termData[i].courseTitle,
@@ -59,7 +60,7 @@ app.get("/test/courses/all", async (req, res) => {
         sections: termData[i].sections
       });
 
-      course.save().then(console.log(`Saving ${i} documents ...`));
+      // course.save().then(console.log(`Saving ${i} documents ...`));
     }
   } catch (e) {
     console.log(e);
