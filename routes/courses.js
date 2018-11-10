@@ -1,8 +1,8 @@
 const express = require("express");
 const router = express.Router();
 const cors = require("cors");
-const courseQuery = require("../lib/courseQuery").getCourse;
-const termQuery = require("../lib/termQuery").getCoursesPerTerm;
+const getCourse = require("../lib/course").getCourse;
+const getTerm = require("../lib/term").getCoursesPerTerm;
 
 // Models
 const Courses = require("../models/Courses");
@@ -12,12 +12,10 @@ router.use(express.json());
 router.use(cors());
 
 // Routes
-router.post("/course/:courseID/quarter/:quarterID", async (req, res) => {
+// Post a single course available during the quarter
+router.post("/course/:courseID/quarter/:quarter", async (req, res) => {
   try {
-    const courseData = await courseQuery(
-      req.params.courseID,
-      req.params.quarterID
-    );
+    const courseData = await getCourse(req.params.courseID, req.params.quarter);
     for (let i = 0; i < courseData.length; i++) {
       const course = new Courses({
         courseTitle: courseData[i].courseTitle,
@@ -38,9 +36,10 @@ router.post("/course/:courseID/quarter/:quarterID", async (req, res) => {
   }
 });
 
-router.post("/status/:statusID/quarter/:quarterID", async (req, res) => {
+// Post all the courses available during the quarter
+router.post("/status/:status/quarter/:quarter", async (req, res) => {
   try {
-    const termData = await termQuery(req.params.statusID, req.params.quarterID);
+    const termData = await getTerm(req.params.status, req.params.quarter);
     for (let i = 0; i < termData.length; i++) {
       const course = new Courses({
         courseTitle: termData[i].courseTitle,
