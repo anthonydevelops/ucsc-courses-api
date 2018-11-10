@@ -18,18 +18,22 @@ mongoose
   .then(() => console.log("MongoDB connected"))
   .catch(err => console.log(err));
 
-app.get("/test/course", async (req, res) => {
+app.get("/course/:courseID/quarter/:quarterID", async (req, res) => {
   try {
-    const courseData = await courseQuery("ams204", "2018 Fall Quarter");
+    const courseData = await courseQuery(
+      req.params.courseID,
+      req.params.quarterID
+    );
     for (let i = 0; i < courseData.length; i++) {
       const course = new Courses({
-        courseID: courseData[i][0].courseID,
-        meta: courseData[i][0].meta,
-        description: courseData[i][0].description,
-        prereqs: courseData[i][0].prereqs,
-        notes: courseData[i][0].notes,
-        lecture: courseData[i][0].lecture,
-        sections: courseData[i][0].sections
+        courseTitle: termData[i].courseTitle,
+        courseID: termData[i].courseID,
+        meta: termData[i].meta,
+        description: termData[i].description,
+        prereqs: termData[i].prereqs,
+        notes: termData[i].notes,
+        lecture: termData[i].lecture,
+        sections: termData[i].sections
       });
 
       // course.save().then(console.log(`Saving ${i} documents ...`));

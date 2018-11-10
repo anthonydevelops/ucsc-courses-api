@@ -1,230 +1,234 @@
 [
     {
+        "termID": "2190",
+        "termName": "2019Winter"
+    },
+    {
         "termID": "2188",
-        "termName": "2018 Fall Quarter"
+        "termName": "2018Fall"
     },
     {
         "termID": "2184",
-        "termName": "2018 Summer Quarter"
+        "termName": "2018Summer"
     },
     {
         "termID": "2182",
-        "termName": "2018 Spring Quarter"
+        "termName": "2018Spring"
     },
     {
         "termID": "2180",
-        "termName": "2018 Winter Quarter"
+        "termName": "2018Winter"
     },
     {
         "termID": "2178",
-        "termName": "2017 Fall Quarter"
+        "termName": "2017Fall"
     },
     {
         "termID": "2174",
-        "termName": "2017 Summer Quarter"
+        "termName": "2017Summer"
     },
     {
         "termID": "2172",
-        "termName": "2017 Spring Quarter"
+        "termName": "2017Spring"
     },
     {
         "termID": "2170",
-        "termName": "2017 Winter Quarter"
+        "termName": "2017Winter"
     },
     {
         "termID": "2168",
-        "termName": "2016 Fall Quarter"
+        "termName": "2016Fall"
     },
     {
         "termID": "2164",
-        "termName": "2016 Summer Quarter"
+        "termName": "2016Summer"
     },
     {
         "termID": "2162",
-        "termName": "2016 Spring Quarter"
+        "termName": "2016Spring"
     },
     {
         "termID": "2160",
-        "termName": "2016 Winter Quarter"
+        "termName": "2016Winter"
     },
     {
         "termID": "2158",
-        "termName": "2015 Fall Quarter"
+        "termName": "2015Fall"
     },
     {
         "termID": "2154",
-        "termName": "2015 Summer Quarter"
+        "termName": "2015Summer"
     },
     {
         "termID": "2152",
-        "termName": "2015 Spring Quarter"
+        "termName": "2015Spring"
     },
     {
         "termID": "2150",
-        "termName": "2015 Winter Quarter"
+        "termName": "2015Winter"
     },
     {
         "termID": "2148",
-        "termName": "2014 Fall Quarter"
+        "termName": "2014Fall"
     },
     {
         "termID": "2144",
-        "termName": "2014 Summer Quarter"
+        "termName": "2014Summer"
     },
     {
         "termID": "2142",
-        "termName": "2014 Spring Quarter"
+        "termName": "2014Spring"
     },
     {
         "termID": "2140",
-        "termName": "2014 Winter Quarter"
+        "termName": "2014Winter"
     },
     {
         "termID": "2138",
-        "termName": "2013 Fall Quarter"
+        "termName": "2013Fall"
     },
     {
         "termID": "2134",
-        "termName": "2013 Summer Quarter"
+        "termName": "2013Summer"
     },
     {
         "termID": "2132",
-        "termName": "2013 Spring Quarter"
+        "termName": "2013Spring"
     },
     {
         "termID": "2130",
-        "termName": "2013 Winter Quarter"
+        "termName": "2013Winter"
     },
     {
         "termID": "2128",
-        "termName": "2012 Fall Quarter"
+        "termName": "2012Fall"
     },
     {
         "termID": "2124",
-        "termName": "2012 Summer Quarter"
+        "termName": "2012Summer"
     },
     {
         "termID": "2122",
-        "termName": "2012 Spring Quarter"
+        "termName": "2012Spring"
     },
     {
         "termID": "2120",
-        "termName": "2012 Winter Quarter"
+        "termName": "2012Winter"
     },
     {
         "termID": "2118",
-        "termName": "2011 Fall Quarter"
+        "termName": "2011Fall"
     },
     {
         "termID": "2114",
-        "termName": "2011 Summer Quarter"
+        "termName": "2011Summer"
     },
     {
         "termID": "2112",
-        "termName": "2011 Spring Quarter"
+        "termName": "2011Spring"
     },
     {
         "termID": "2110",
-        "termName": "2011 Winter Quarter"
+        "termName": "2011Winter"
     },
     {
         "termID": "2108",
-        "termName": "2010 Fall Quarter"
+        "termName": "2010Fall"
     },
     {
         "termID": "2104",
-        "termName": "2010 Summer Quarter"
+        "termName": "2010Summer"
     },
     {
         "termID": "2102",
-        "termName": "2010 Spring Quarter"
+        "termName": "2010Spring"
     },
     {
         "termID": "2100",
-        "termName": "2010 Winter Quarter"
+        "termName": "2010Winter"
     },
     {
         "termID": "2098",
-        "termName": "2009 Fall Quarter"
+        "termName": "2009Fall"
     },
     {
         "termID": "2094",
-        "termName": "2009 Summer Quarter"
+        "termName": "2009Summer"
     },
     {
         "termID": "2092",
-        "termName": "2009 Spring Quarter"
+        "termName": "2009Spring"
     },
     {
         "termID": "2090",
-        "termName": "2009 Winter Quarter"
+        "termName": "2009Winter"
     },
     {
         "termID": "2088",
-        "termName": "2008 Fall Quarter"
+        "termName": "2008Fall"
     },
     {
         "termID": "2084",
-        "termName": "2008 Summer Quarter"
+        "termName": "2008Summer"
     },
     {
         "termID": "2082",
-        "termName": "2008 Spring Quarter"
+        "termName": "2008Spring"
     },
     {
         "termID": "2080",
-        "termName": "2008 Winter Quarter"
+        "termName": "2008Winter"
     },
     {
         "termID": "2078",
-        "termName": "2007 Fall Quarter"
+        "termName": "2007Fall"
     },
     {
         "termID": "2074",
-        "termName": "2007 Summer Quarter"
+        "termName": "2007Summer"
     },
     {
         "termID": "2072",
-        "termName": "2007 Spring Quarter"
+        "termName": "2007Spring"
     },
     {
         "termID": "2070",
-        "termName": "2007 Winter Quarter"
+        "termName": "2007Winter"
     },
     {
         "termID": "2068",
-        "termName": "2006 Fall Quarter"
+        "termName": "2006Fall"
     },
     {
         "termID": "2064",
-        "termName": "2006 Summer Quarter"
+        "termName": "2006Summer"
     },
     {
         "termID": "2062",
-        "termName": "2006 Spring Quarter"
+        "termName": "2006Spring"
     },
     {
         "termID": "2060",
-        "termName": "2006 Winter Quarter"
+        "termName": "2006Winter"
     },
     {
         "termID": "2058",
-        "termName": "2005 Fall Quarter"
+        "termName": "2005Fall"
     },
     {
         "termID": "2054",
-        "termName": "2005 Summer Quarter"
+        "termName": "2005Summer"
     },
     {
         "termID": "2052",
-        "termName": "2005 Spring Quarter"
+        "termName": "2005Spring"
     },
     {
         "termID": "2050",
-        "termName": "2005 Winter Quarter"
+        "termName": "2005Winter"
     },
     {
         "termID": "2048",
-        "termName": "2004 Fall Quarter"
+        "termName": "2004Fall"
     }
 ]
