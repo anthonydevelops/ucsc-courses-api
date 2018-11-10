@@ -1,12 +1,8 @@
 const mongoose = require("mongoose");
 const express = require("express");
-const courseQuery = require("./lib/courseQuery").getCourse;
-const termQuery = require("./lib/termQuery").getCoursesPerTerm;
+const ucsc = require("./routes/courses");
 
 const app = express();
-
-// Models
-const Courses = require("./models/Courses");
 
 // Port
 const port = process.env.PORT || 5000;
@@ -18,53 +14,7 @@ mongoose
   .then(() => console.log("MongoDB connected"))
   .catch(err => console.log(err));
 
-// Routes
-app.post("/course/:courseID/quarter/:quarterID", async (req, res) => {
-  try {
-    const courseData = await courseQuery(
-      req.params.courseID,
-      req.params.quarterID
-    );
-    for (let i = 0; i < courseData.length; i++) {
-      const course = new Courses({
-        courseTitle: termData[i].courseTitle,
-        courseID: termData[i].courseID,
-        meta: termData[i].meta,
-        description: termData[i].description,
-        prereqs: termData[i].prereqs,
-        notes: termData[i].notes,
-        lecture: termData[i].lecture,
-        sections: termData[i].sections
-      });
-
-      // course.save().then(console.log(`Saving ${i} documents ...`));
-    }
-    res.send(courseData);
-  } catch (e) {
-    console.log(e);
-  }
-});
-
-app.post("/status/:statusID/quarter/:quarterID", async (req, res) => {
-  try {
-    const termData = await termQuery(req.params.statusID, req.params.quarterID);
-    for (let i = 0; i < termData.length; i++) {
-      const course = new Courses({
-        courseTitle: termData[i].courseTitle,
-        courseID: termData[i].courseID,
-        meta: termData[i].meta,
-        description: termData[i].description,
-        prereqs: termData[i].prereqs,
-        notes: termData[i].notes,
-        lecture: termData[i].lecture,
-        sections: termData[i].sections
-      });
-
-      // course.save().then(console.log(`Saving ${i} documents ...`));
-    }
-  } catch (e) {
-    console.log(e);
-  }
-});
+// Route handler
+app.use("/ucsc", ucsc);
 
 app.listen(port, () => console.log(`Listening on port ${port}`));
