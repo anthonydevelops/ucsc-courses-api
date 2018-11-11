@@ -54,6 +54,8 @@ router.post("/status/:status/quarter/:quarter", async (req, res) => {
 
       // course.save().then(console.log(`Saving ${i} documents ...`));
     }
+
+    res.send(termData);
   } catch (e) {
     console.log(e);
   }
