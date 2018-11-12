@@ -3,6 +3,7 @@ const router = express.Router();
 const cors = require("cors");
 const getCourse = require("../lib/course").getCourse;
 const getTerm = require("../lib/term").getCoursesPerTerm;
+const getRmp = require("../lib/rmp").getRating;
 
 // Models
 const Courses = require("../models/Courses");
@@ -16,7 +17,12 @@ router.use(cors());
 router.post("/course/:courseID/quarter/:quarter", async (req, res) => {
   try {
     const courseData = await getCourse(req.params.courseID, req.params.quarter);
+
+    let result = [];
+
     for (let i = 0; i < courseData.length; i++) {
+      const courseRating = await getRmp(courseData[i].lecture.instructor);
+
       const course = new Courses({
         courseTitle: courseData[i].courseTitle,
         courseID: courseData[i].courseID,
@@ -25,12 +31,14 @@ router.post("/course/:courseID/quarter/:quarter", async (req, res) => {
         prereqs: courseData[i].prereqs,
         notes: courseData[i].notes,
         lecture: courseData[i].lecture,
-        sections: courseData[i].sections
+        sections: courseData[i].sections,
+        review: courseRating
       });
 
       // course.save().then(console.log(`Saving ${i} documents ...`));
+      result.push(course);
     }
-    res.send(courseData);
+    res.send(result);
   } catch (e) {
     console.log(e);
   }
@@ -40,7 +48,12 @@ router.post("/course/:courseID/quarter/:quarter", async (req, res) => {
 router.post("/status/:status/quarter/:quarter", async (req, res) => {
   try {
     const termData = await getTerm(req.params.status, req.params.quarter);
+
+    let result = [];
+
     for (let i = 0; i < termData.length; i++) {
+      const courseRating = await getRmp(courseData[i].lecture.instructor);
+
       const course = new Courses({
         courseTitle: termData[i].courseTitle,
         courseID: termData[i].courseID,
@@ -49,13 +62,15 @@ router.post("/status/:status/quarter/:quarter", async (req, res) => {
         prereqs: termData[i].prereqs,
         notes: termData[i].notes,
         lecture: termData[i].lecture,
-        sections: termData[i].sections
+        sections: termData[i].sections,
+        review: courseRating
       });
 
       // course.save().then(console.log(`Saving ${i} documents ...`));
+      result.push(course);
     }
 
-    res.send(termData);
+    res.send(result);
   } catch (e) {
     console.log(e);
   }

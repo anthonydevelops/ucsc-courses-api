@@ -34,6 +34,9 @@ const CourseSchema = new mongoose.Schema({
   sections: {
     type: [{}],
     default: ""
+  },
+  review: {
+    type: mongoose.Schema.Types.Mixed
   }
 });
 
