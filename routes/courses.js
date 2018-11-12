@@ -66,7 +66,7 @@ router.post("/status/:status/quarter/:quarter", async (req, res) => {
         review: courseRating
       });
 
-      // course.save().then(console.log(`Saving ${i} documents ...`));
+      course.save().then(console.log(`Saving ${i} documents ...`));
       result.push(course);
     }
 
