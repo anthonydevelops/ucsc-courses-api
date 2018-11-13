@@ -47,10 +47,10 @@ router.post("/course/:courseID/quarter/:quarter", async (req, res) => {
 // Post all the courses available during the quarter
 router.post("/status/:status/quarter/:quarter", async (req, res) => {
   try {
-    const result = [];
     const termData = await getTerm(req.params.status, req.params.quarter);
 
     const ratingDict = {};
+    const result = [];
 
     for (let i = 0; i < termData.length; i++) {
       let professorRating;
@@ -58,11 +58,9 @@ router.post("/status/:status/quarter/:quarter", async (req, res) => {
       const instructor = termData[i].lecture.instructor;
 
       if (instructor && instructor !== "Staff") {
-        for (let key in ratingDict) {
-          if (key === instructor) {
-            professorSearched = true;
-            professorRating = ratingDict[key];
-          }
+        if (ratingDict.hasOwnProperty(instructor)) {
+          professorSearched = true;
+          professorRating = ratingDict[instructor];
         }
 
         if (professorSearched === false) {
@@ -91,7 +89,6 @@ router.post("/status/:status/quarter/:quarter", async (req, res) => {
       // course.save().then(console.log(`Saving ${i} documents ...`));
       result.push(course);
     }
-
     res.send(result);
   } catch (e) {
     console.log(e);
