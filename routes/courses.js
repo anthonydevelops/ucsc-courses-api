@@ -52,9 +52,17 @@ router.post("/status/:status/quarter/:quarter", async (req, res) => {
     let result = [];
 
     for (let i = 0; i < termData.length; i++) {
-      const courseRating = await getRmp(courseData[i].lecture.instructor);
+      let courseRating = {};
+      if (
+        termData[i].lecture.instructor &&
+        termData[i].lecture.instructor !== "TBA"
+      ) {
+        courseRating = getRmp(termData[i].lecture.instructor);
+      } else {
+        courseRating = null;
+      }
 
-      const course = new Courses({
+      const course = new Courses.Winter19({
         courseTitle: termData[i].courseTitle,
         courseID: termData[i].courseID,
         meta: termData[i].meta,
@@ -67,10 +75,10 @@ router.post("/status/:status/quarter/:quarter", async (req, res) => {
       });
 
       course.save().then(console.log(`Saving ${i} documents ...`));
-      result.push(course);
+      // result.push(course);
     }
 
-    res.send(result);
+    // res.send(result);
   } catch (e) {
     console.log(e);
   }
