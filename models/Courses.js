@@ -35,7 +35,7 @@ const CourseSchema = new mongoose.Schema({
     type: [{}],
     default: ""
   },
-  professorReview: {
+  profReview: {
     type: mongoose.Schema.Types.Mixed
   }
 });

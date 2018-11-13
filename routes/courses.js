@@ -61,38 +61,36 @@ router.post("/course/:courseID/quarter/:quarter", async (req, res) => {
 router.post("/status/:status/quarter/:quarter", async (req, res) => {
   try {
     // Get course data for the queried term
-    const termData = await getTerm(req.params.status, req.params.quarter);
-
-    // Rating dictionary to store prev searched prof
-    const ratingDict = {};
+    let termData = await getTerm(req.params.status, req.params.quarter);
+    termData = await getRmp(termData);
 
     // Temp result to show on Postman
     const result = [];
 
     for (let i = 0; i < termData.length; i++) {
-      let professorRating;
-      let professorSearched = false;
+      // let professorRating;
+      // let professorSearched = false;
 
-      // Get instructor for course
-      const instructor = termData[i].lecture.instructor;
+      // // Get instructor for course
+      // const instructor = termData[i].lecture.instructor;
 
-      // Search if instructor exists
-      if (instructor && instructor !== "Staff") {
-        if (ratingDict.hasOwnProperty(instructor)) {
-          professorSearched = true;
-          professorRating = ratingDict[instructor];
-        }
+      // // Search if instructor exists
+      // if (instructor && instructor !== "Staff") {
+      //   if (ratingDict.hasOwnProperty(instructor)) {
+      //     professorSearched = true;
+      //     professorRating = ratingDict[instructor];
+      //   }
 
-        if (professorSearched === false) {
-          professorRating = await getRmp(instructor);
-          ratingDict[instructor] = professorRating;
-        }
-      } else {
-        professorRating = {
-          rating: null,
-          amountReviewed: null
-        };
-      }
+      //   if (professorSearched === false) {
+      //     professorRating = await getRmp(instructor);
+      //     ratingDict[instructor] = professorRating;
+      //   }
+      // } else {
+      //   professorRating = {
+      //     rating: null,
+      //     amountReviewed: null
+      //   };
+      // }
 
       // Store course info
       const course = new Courses.Winter19({
@@ -104,7 +102,7 @@ router.post("/status/:status/quarter/:quarter", async (req, res) => {
         notes: termData[i].notes,
         lecture: termData[i].lecture,
         sections: termData[i].sections,
-        professorReview: professorRating
+        profReview: termData[i].profReview
       });
 
       // course.save().then(console.log(`Saving ${i} documents ...`));
