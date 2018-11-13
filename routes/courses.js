@@ -47,19 +47,33 @@ router.post("/course/:courseID/quarter/:quarter", async (req, res) => {
 // Post all the courses available during the quarter
 router.post("/status/:status/quarter/:quarter", async (req, res) => {
   try {
+    const result = [];
     const termData = await getTerm(req.params.status, req.params.quarter);
 
-    let result = [];
+    const ratingDict = {};
 
     for (let i = 0; i < termData.length; i++) {
-      let courseRating = {};
-      if (
-        termData[i].lecture.instructor &&
-        termData[i].lecture.instructor !== "TBA"
-      ) {
-        courseRating = getRmp(termData[i].lecture.instructor);
+      let professorRating;
+      let professorSearched = false;
+      const instructor = termData[i].lecture.instructor;
+
+      if (instructor && instructor !== "Staff") {
+        for (let key in ratingDict) {
+          if (key === instructor) {
+            professorSearched = true;
+            professorRating = ratingDict[key];
+          }
+        }
+
+        if (professorSearched === false) {
+          professorRating = await getRmp(instructor);
+          ratingDict[instructor] = professorRating;
+        }
       } else {
-        courseRating = null;
+        professorRating = {
+          rating: null,
+          amountReviewed: null
+        };
       }
 
       const course = new Courses.Winter19({
@@ -71,14 +85,14 @@ router.post("/status/:status/quarter/:quarter", async (req, res) => {
         notes: termData[i].notes,
         lecture: termData[i].lecture,
         sections: termData[i].sections,
-        review: courseRating
+        professorReview: professorRating
       });
 
-      course.save().then(console.log(`Saving ${i} documents ...`));
-      // result.push(course);
+      // course.save().then(console.log(`Saving ${i} documents ...`));
+      result.push(course);
     }
 
-    // res.send(result);
+    res.send(result);
   } catch (e) {
     console.log(e);
   }
