@@ -64,8 +64,6 @@ router.post("/status/:status/quarter/:quarter", async (req, res) => {
     let termData = await getTerm(status, quarter);
     termData = await getRmp(termData);
 
-    const result = [];
-
     for (let i = 0; i < termData.length; i++) {
       // Store course info
       const course = new Courses.Fall18({
@@ -81,9 +79,7 @@ router.post("/status/:status/quarter/:quarter", async (req, res) => {
       });
 
       course.save().then(console.log(`Saving ${i} documents ...`));
-      // result.push(course);
     }
-    // res.send(result);
   } catch (e) {
     console.log(e);
   }
