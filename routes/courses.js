@@ -17,26 +17,20 @@ router.use(cors());
 router.post("/course/:courseID/quarter/:quarter", async (req, res) => {
   try {
     // Course data for queried courseID
-    const courseData = await getCourse(req.params.courseID, req.params.quarter);
+    let courseData = await getCourse(req.params.courseID, req.params.quarter);
+
+    if (courseData == null) {
+      res.send(courseData);
+      return;
+    }
+
+    courseData = await getRmp(courseData);
 
     let result = [];
 
     for (let i = 0; i < courseData.length; i++) {
-      const instructor = courseData[i].lecture.instructor;
-      let professorRating;
-
-      // Check if instructor exists & search
-      if (instructor && instructor !== "Staff") {
-        professorRating = await getRmp(courseData[i].lecture.instructor);
-      } else {
-        professorRating = {
-          rating: null,
-          amountReviewed: null
-        };
-      }
-
       // Store course info
-      const course = new Courses({
+      const course = new Courses.Winter19({
         courseTitle: courseData[i].courseTitle,
         courseID: courseData[i].courseID,
         meta: courseData[i].meta,
@@ -45,7 +39,10 @@ router.post("/course/:courseID/quarter/:quarter", async (req, res) => {
         notes: courseData[i].notes,
         lecture: courseData[i].lecture,
         sections: courseData[i].sections,
-        professorReview: professorRating
+        profReview: {
+          rating: null,
+          amountReviewed: null
+        }
       });
 
       // course.save().then(console.log(`Saving ${i} documents ...`));
@@ -60,40 +57,18 @@ router.post("/course/:courseID/quarter/:quarter", async (req, res) => {
 // Post all the courses available during the quarter
 router.post("/status/:status/quarter/:quarter", async (req, res) => {
   try {
+    const status = req.params.status;
+    const quarter = req.params.quarter;
+
     // Get course data for the queried term
-    let termData = await getTerm(req.params.status, req.params.quarter);
+    let termData = await getTerm(status, quarter);
     termData = await getRmp(termData);
 
-    // Temp result to show on Postman
     const result = [];
 
     for (let i = 0; i < termData.length; i++) {
-      // let professorRating;
-      // let professorSearched = false;
-
-      // // Get instructor for course
-      // const instructor = termData[i].lecture.instructor;
-
-      // // Search if instructor exists
-      // if (instructor && instructor !== "Staff") {
-      //   if (ratingDict.hasOwnProperty(instructor)) {
-      //     professorSearched = true;
-      //     professorRating = ratingDict[instructor];
-      //   }
-
-      //   if (professorSearched === false) {
-      //     professorRating = await getRmp(instructor);
-      //     ratingDict[instructor] = professorRating;
-      //   }
-      // } else {
-      //   professorRating = {
-      //     rating: null,
-      //     amountReviewed: null
-      //   };
-      // }
-
       // Store course info
-      const course = new Courses.Winter19({
+      const course = new Courses.Fall18({
         courseTitle: termData[i].courseTitle,
         courseID: termData[i].courseID,
         meta: termData[i].meta,
@@ -105,10 +80,10 @@ router.post("/status/:status/quarter/:quarter", async (req, res) => {
         profReview: termData[i].profReview
       });
 
-      // course.save().then(console.log(`Saving ${i} documents ...`));
-      result.push(course);
+      course.save().then(console.log(`Saving ${i} documents ...`));
+      // result.push(course);
     }
-    res.send(result);
+    // res.send(result);
   } catch (e) {
     console.log(e);
   }
