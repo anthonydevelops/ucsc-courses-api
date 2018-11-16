@@ -33,7 +33,7 @@ router.post("/course/:courseID/quarter/:quarter", async (req, res) => {
 
     for (let i = 0; i < courseData.length; i++) {
       // Store course info
-      const course = new Courses.Winter19({
+      const course = new Courses.Fall18({
         courseTitle: courseData[i].courseTitle,
         courseID: courseData[i].courseID,
         meta: courseData[i].meta,
@@ -80,10 +80,10 @@ router.post("/status/:status/quarter/:quarter", async (req, res) => {
         profReview: termData[i].profReview
       });
 
-      // course.save().then(console.log(`Saving ${i} documents ...`));
-      result.push(course);
+      course.save().then(console.log(`Saving ${i} documents ...`));
+      // result.push(course);
     }
-    res.send(result);
+    // res.send(result);
   } catch (e) {
     console.log(e);
   }
