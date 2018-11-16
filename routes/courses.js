@@ -16,11 +16,14 @@ router.use(cors());
 // Post a single course available during the quarter
 router.post("/course/:courseID/quarter/:quarter", async (req, res) => {
   try {
-    // Course data for queried courseID
-    let courseData = await getCourse(req.params.courseID, req.params.quarter);
+    const courseID = req.params.courseID;
+    const quarter = req.params.quarter;
 
-    if (courseData == null) {
-      res.send(courseData);
+    // Course data for queried courseID
+    let courseData = await getCourse(courseID, quarter);
+
+    if (courseData.length < 1) {
+      res.send([]);
       return;
     }
 
@@ -39,10 +42,7 @@ router.post("/course/:courseID/quarter/:quarter", async (req, res) => {
         notes: courseData[i].notes,
         lecture: courseData[i].lecture,
         sections: courseData[i].sections,
-        profReview: {
-          rating: null,
-          amountReviewed: null
-        }
+        profReview: courseData[i].profReview
       });
 
       // course.save().then(console.log(`Saving ${i} documents ...`));
@@ -64,6 +64,8 @@ router.post("/status/:status/quarter/:quarter", async (req, res) => {
     let termData = await getTerm(status, quarter);
     termData = await getRmp(termData);
 
+    const result = [];
+
     for (let i = 0; i < termData.length; i++) {
       // Store course info
       const course = new Courses.Fall18({
@@ -78,8 +80,10 @@ router.post("/status/:status/quarter/:quarter", async (req, res) => {
         profReview: termData[i].profReview
       });
 
-      course.save().then(console.log(`Saving ${i} documents ...`));
+      // course.save().then(console.log(`Saving ${i} documents ...`));
+      result.push(course);
     }
+    res.send(result);
   } catch (e) {
     console.log(e);
   }
