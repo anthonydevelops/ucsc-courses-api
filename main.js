@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 const express = require("express");
-const ucsc = require("./routes/courses");
+const api = require("./routes/api");
 
 const app = express();
 
@@ -15,6 +15,6 @@ mongoose
   .catch(err => console.log(err));
 
 // Route handler
-app.use("/ucsc", ucsc);
+app.use("/api", api);
 
 app.listen(port, () => console.log(`Listening on port ${port}`));
